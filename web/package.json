@@ -8,5 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "eslint": "^9.22.0",
+    "husky": "^9.1.7",
+    "lodash": "^4.17.21",
+    "prettier": "^3.5.3",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-router": "^7.3.0",
+    "react-router-dom": "^7.3.0",
+    "react-scripts": "^5.0.1"
+  }
 }
