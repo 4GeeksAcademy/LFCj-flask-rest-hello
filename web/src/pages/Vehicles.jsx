@@ -3,7 +3,7 @@ import { Button, Card, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router";
 import { useContext } from "react";
 import { FavouritesContext } from "./FavsContext";
-import { getVehicles } from "../fecthes/vehicles";
+import { getVehicles } from "../fetches/vehicles";
 
 export const Vehicles = () => {
   const [vehicles, setVehicles] = useState([]);

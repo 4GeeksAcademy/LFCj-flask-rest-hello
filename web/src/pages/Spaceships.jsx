@@ -3,7 +3,7 @@ import { Button, Card, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router";
 import { useContext } from "react";
 import { FavouritesContext } from "./FavsContext";
-import { getSpaceships } from "../fecthes/spaceships";
+import { getSpaceships } from "../fetches/spaceships";
 
 export const Spaceships = () => {
   const [spaceships, setSpaceships] = useState([]);

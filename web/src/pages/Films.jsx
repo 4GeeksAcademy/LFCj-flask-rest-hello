@@ -3,7 +3,7 @@ import { Button, Card, Col, Row } from "react-bootstrap";
 import { NavLink } from "react-router";
 import { FavouritesContext } from "./FavsContext";
 import { useContext } from "react";
-import { getFilms } from "../fecthes/films";
+import { getFilms } from "../fetches/films";
 
 export const Films = () => {
   const [films, setFilms] = useState([]);

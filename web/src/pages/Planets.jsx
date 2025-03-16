@@ -2,7 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import { Button, Card, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { FavouritesContext } from "./FavsContext";
-import { getPlanets } from "../fecthes/planets";
+import { getPlanets } from "../fetches/planets";
 
 export const Planets = () => {
   const [planets, setPlanets] = useState([]);

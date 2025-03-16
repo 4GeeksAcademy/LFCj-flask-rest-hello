@@ -3,7 +3,7 @@ import { Button, Card, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router";
 import { useContext } from "react";
 import { FavouritesContext } from "./FavsContext";
-import { getPeople } from "../fecthes/people";
+import { getPeople } from "../fetches/people";
 
 export const People = () => {
   const [people, setPeople] = useState([]);

@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
-import { UserContext } from "./UserContext";
 
 export const Login = () => {
   const [email, setEmail] = useState("");

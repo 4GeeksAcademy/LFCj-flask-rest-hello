@@ -3,7 +3,7 @@ import { Button, Card, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router";
 import { useContext } from "react";
 import { FavouritesContext } from "./FavsContext";
-import { getSpecies } from "../fecthes/species";
+import { getSpecies } from "../fetches/species";
 
 export const Species = () => {
   const [species, setSpecies] = useState([]);
